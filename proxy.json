@@ -3,9 +3,17 @@
   "rules": [
     {
       "domain_suffix": [
-        "zaobao.com",
-        "zaobao.sg",
-        "zaobao.com.sg"
+        "hdhive.com",
+        "immortalwrt.org",
+        "mushroomtrack.com"
+        "mushroomtrack.com"
+        "jable.tv"
+        "stadiamaps.com"
+        "openstreetmap.org"
+        "ping0.cc"
+        "mypikpak.com"
+        "ipleak.net"
+        "pt.btschool.club"
       ]
     }
   ]
