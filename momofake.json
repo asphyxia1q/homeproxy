@@ -21,7 +21,7 @@
   },
   "outbounds": [
     {"tag": "🚀 默认代理", "type": "selector", "outbounds": ["😄新加坡和日本节点", "🙄香港普通", "🐄家宽节点", "🐸 手动选择", "♻️ 自动选择"]},
-    {"tag": "🧠 AI", "type": "selector", "outbounds": [""😄新加坡和日本节点", "🙄香港普通", "🐄家宽节点", "🐸 手动选择"]},
+    {"tag": "🧠 AI", "type": "selector", "outbounds": ["😄新加坡和日本节点", "🙄香港普通", "🐄家宽节点", "🐸 手动选择"]},
     {"tag": "📹 YouTube", "type": "selector", "outbounds": [""😄新加坡和日本节点", "🙄香港普通", "🐄家宽节点", "🐸 手动选择"]},
     {"tag": "🍀 Google", "type": "selector", "outbounds": ["😄新加坡和日本节点", "🙄香港普通", "🐄家宽节点", "🐸 手动选择"]},
     {"tag": "👨‍💻 Github", "type": "selector", "outbounds": ["😄新加坡和日本节点", "🙄香港普通", "🐄家宽节点", "🐸 手动选择"]},
