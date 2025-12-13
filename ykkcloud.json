@@ -1,9 +1,9 @@
 {
   "dns": {
     "servers": [
-      {"tag": "local", "type": "udp", "server": "119.29.29.29"},
-      {"tag": "public", "type": "https", "server": "doh.pub", "domain_resolver": "local"},
-      {"tag": "foreign", "type": "https", "server": "dns.google", "detour": "🚀 默认代理"},
+      {"tag": "local", "type": "udp", "server": "223.5.5.5"},
+      {"tag": "public", "type": "https", "server": "dns.alidns.com", "domain_resolver": "local"},
+      {"tag": "foreign", "type": "https", "server": "8.8.8.8", "detour": "🚀 默认代理"},
       {"tag": "fakeip", "type": "fakeip", "inet4_range": "198.18.0.0/15", "inet6_range": "fc00::/18"}
     ],
     "rules": [
@@ -80,6 +80,7 @@
       {"rule_set": "geoip-cn", "outbound": "🎯 全球直连"}
     ],
     "rule_set": [
+      {"tag": "geosite-fakeipfilter", "type": "remote", "format": "source", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/qichiyuhub/rule/refs/heads/main/fakeipfilter.json", "download_detour": "🎯 全球直连"},
       {"tag": "geosite-zhilian", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/speedtest.srs", "download_detour": "🎯 全球直连"},
       {"tag": "geosite-ziyongguizedr", "type": "remote", "format": "source", "url": "https://gh-proxy.org/https://raw.githubusercontent.com/asphyxia1q/homeproxy/refs/heads/main/ziyongguize_dr.json", "download_detour": "🎯 全球直连"},
       {"tag": "geosite-applecn", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/apple@cn.srs", "download_detour": "🎯 全球直连"},
