@@ -1,7 +1,8 @@
 {
   "dns": {
     "servers": [
-      {"tag": "local", "type": "udp", "server": "202.101.224.69"},
+      {"tag": "local", "type": "udp", "server": "119.29.29.29"},
+      {"tag": "public", "type": "https", "server": "doh.pub", "domain_resolver": "local"},
       {"tag": "foreign", "type": "https", "server": "dns.google", "detour": "🚀 默认代理"},
       {"tag": "fakeip", "type": "fakeip", "inet4_range": "198.18.0.0/15", "inet6_range": "fc00::/18"}
     ],
@@ -9,12 +10,13 @@
       {"clash_mode": "direct", "server": "local"},
       {"clash_mode": "global", "server": "fakeip"},
       {"query_type": "HTTPS", "action": "reject"},
-      {"domain_suffix": ["services.googleapis.cn", "googleapis.cn", "xn--ngstr-lra8j.com"], "server": "foreign"},
-      {"rule_set": ["geosite-cn", "geosite-steamcn", "geosite-apple"], "server": "local"},
-      {"query_type": ["A", "AAAA"], "server": "fakeip", "rewrite_ttl": 1}
+      {"rule_set": "geosite-fakeipfilter", "server": "local"},
+      {"query_type": ["A", "AAAA"], "server": "fakeip", "rewrite_ttl": 1},
+      {"rule_set": "geosite-cn", "server": "local"}
     ],
     "final": "foreign",
-    "strategy": "ipv4_only",
+    "client_subnet": "223.5.5.0/24",
+    "strategy": "prefer_ipv4",
     "independent_cache": true,
     "reverse_mapping": true
   },
