@@ -28,7 +28,7 @@
     {"tag": "👨‍💻 Github", "type": "selector", "outbounds": ["🚀 默认代理", "😄日本和台湾节点", "🙄香港普通", "😄新加坡节点", "💤日本节点", "🐸 手动选择"]},
     {"tag": "📲 Telegram", "type": "selector", "outbounds": ["🚀 默认代理", "😄日本和台湾节点", "🙄香港普通", "😄新加坡节点", "💤日本节点", "🐸 手动选择"]},
     {"tag": "🎵 TikTok", "type": "selector", "outbounds": ["🚀 默认代理", "😄日本和台湾节点", "🙄香港普通", "😄新加坡节点", "💤日本节点", "🐸 手动选择"]},
-    {"tag": "🎥 Netflix", "type": "selector", "outbounds": ["🚀 默认代理", "😄日本和台湾节点", "🙄香港普通", "😄新加坡节点", "💤日本节点", "💥奈飞节点", "🐸 手动选择"]},
+    {"tag": "🎥 Netflix", "type": "selector", "outbounds": ["🚀 默认代理", "😄日本和台湾节点", "🙄香港普通", "😄新加坡节点", "💤日本节点", "💥MITT节点", "🐸 手动选择"]},
     {"tag": "💶 PayPal", "type": "selector", "outbounds": ["🚀 默认代理", "😄日本和台湾节点", "🙄香港普通", "😄新加坡节点", "💤日本节点", "🐸 手动选择"]},
     {"tag": "🎮 Steam", "type": "selector", "outbounds": ["🚀 默认代理", "😄日本和台湾节点", "🙄香港普通", "😄新加坡节点", "💤日本节点", "🐸 手动选择"]},
     {"tag": "🪟 Microsoft", "type": "selector", "outbounds": ["🚀 默认代理", "🎯 全球直连", "😄日本和台湾节点", "🙄香港普通", "😄新加坡节点", "💤日本节点", "🐸 手动选择"]},
@@ -39,11 +39,11 @@
     {"tag": "🙄香港普通", "type": "urltest", "outbounds": []},
     {"tag": "😄新加坡节点", "type": "urltest", "outbounds": []},
     {"tag": "💤日本节点", "type": "urltest", "outbounds": []},
-    {"tag": "💥奈飞节点", "type": "urltest", "outbounds": []},
+    {"tag": "💥MITT节点", "type": "urltest", "outbounds": []},
     {"tag": "🐸 手动选择", "type": "selector", "outbounds": []},
     {"tag": "♻️ 自动选择", "type": "urltest", "outbounds": []},
     {"tag": "🍃 延迟辅助", "type": "urltest", "outbounds": ["🚀 默认代理", "🎯 全球直连"]},
-    {"tag": "GLOBAL", "type": "selector", "outbounds": ["🚀 默认代理", "🧠 AI", "📹 YouTube", "🍀 Google", "👨‍💻 Github", "📲 Telegram", "🎵 TikTok", "🎥 Netflix", "💶 PayPal", "🎮 Steam", "🪟 Microsoft", "🐬 OneDrive", "🍏 Apple", "🐠 漏网之鱼", "😄日本和台湾节点", "🙄香港普通", "😄新加坡节点", "💤日本节点", "💥奈飞节点", "🐸 手动选择", "♻️ 自动选择", "🍃 延迟辅助", "🎯 全球直连"]},
+    {"tag": "GLOBAL", "type": "selector", "outbounds": ["🚀 默认代理", "🧠 AI", "📹 YouTube", "🍀 Google", "👨‍💻 Github", "📲 Telegram", "🎵 TikTok", "🎥 Netflix", "💶 PayPal", "🎮 Steam", "🪟 Microsoft", "🐬 OneDrive", "🍏 Apple", "🐠 漏网之鱼", "😄日本和台湾节点", "🙄香港普通", "😄新加坡节点", "💤日本节点", "💥MITT节点", "🐸 手动选择", "♻️ 自动选择", "🍃 延迟辅助", "🎯 全球直连"]},
     {"tag": "🎯 全球直连", "type": "direct"}
   ],
   "route": {
