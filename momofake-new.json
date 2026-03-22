@@ -37,7 +37,7 @@
     {"tag": "🐠 漏网之鱼", "type": "selector", "outbounds": ["🚀 默认代理", "🎯 全球直连", "🐸 手动选择"]},
     {"tag": "😄新加坡和日本节点", "type": "urltest", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["新加坡|日本|🇯🇵|🇸🇬"]}, {"action": "exclude", "keywords": ["免费"]}]},
     {"tag": "👿日本节点", "type": "urltest", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["🇯🇵|日本"]}, {"action": "exclude", "keywords": ["免费"]}]},
-    {"tag": "🌂新加坡节点", "type": "urltest", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["🇸🇬 +Singapore+01|🇸🇬 +Singapore+02|🇸🇬 +Singapore+03|🇸🇬 +Singapore+04"]}, {"action": "exclude", "keywords": ["免费"]}]},
+    {"tag": "🌂新加坡节点", "type": "urltest", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["🇸🇬|ffff"]}, {"action": "exclude", "keywords": ["🇸🇬 +Singapore+05+|+MITM"]}]},
     {"tag": "👊🏻台湾节点", "type": "urltest", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["🇹🇼|qqqqqaqa"]}, {"action": "exclude", "keywords": ["免费"]}]},
     {"tag": "🙄香港普通", "type": "urltest", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["🇭🇰 +HongKong+01|🇭🇰 +HongKong+02|🇭🇰 +HongKong+03|🇭🇰 +HongKong+04"]}, {"action": "exclude", "keywords": ["免费"]}]},
     {"tag": "🐄家宽节点", "type": "urltest", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["🇯🇵 日本 JP2 住宅|🇹🇼 台湾 TW2 住宅|🇰🇷 韩国 KR2 住宅|🇺🇸 美国 US2 住宅|🇲🇾 马来西亚 MY1 住宅|🇵🇭 菲律宾 PH1 住宅|🇮🇳 印度尼西亚 ID1 住宅"]}, {"action": "exclude", "keywords": ["免费"]}]},
