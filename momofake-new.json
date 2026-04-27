@@ -55,7 +55,6 @@
       {"clash_mode": "direct", "outbound": "🎯 全球直连"},
       {"clash_mode": "global", "outbound": "GLOBAL"},
       {"rule_set": "geosite-zhilian", "outbound": "🎯 全球直连"},
-      {"rule_set": "geosite-apple@cn", "outbound": "🎯 全球直连"},
       {"rule_set": "geosite-ziyongguizedr", "outbound": "🎯 全球直连"},
       {"rule_set": "geosite-applecn", "outbound": "🎯 全球直连"},
       {"rule_set": "geosite-ziyongguizeji", "outbound": "🚀 默认代理"},
@@ -85,7 +84,6 @@
     ],
     "rule_set": [
       {"tag": "geosite-zhilian", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/speedtest.srs", "download_detour": "🎯 全球直连"},
-      {"tag": "geosite-apple@cn", "type": "remote", "format": "binary", "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/apple%40cn.srs", "download_detour": "🎯 全球直连"},
       {"tag": "geosite-ziyongguizedr", "type": "remote", "format": "source", "url": "https://gh-proxy.org/https://raw.githubusercontent.com/asphyxia1q/homeproxy/refs/heads/main/ziyongguize_dr.json", "download_detour": "🎯 全球直连"},
       {"tag": "geosite-applecn", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/apple@cn.srs", "download_detour": "🎯 全球直连"},
       {"tag": "geosite-ziyongguizeji", "type": "remote", "format": "source", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/asphyxia1q/homeproxy/refs/heads/main/ziyongguizeji.json", "download_detour": "🎯 全球直连"},
