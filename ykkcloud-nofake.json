@@ -1,8 +1,7 @@
 {
   "dns": {
     "servers": [
-      {"tag": "local", "type": "udp", "server": "202.101.224.69"},
-      {"tag": "public", "type": "https", "server": "doh.pub", "domain_resolver": "local"},
+      {"tag": "local", "type": "udp", "server": "10.0.0.9"},
       {"tag": "foreign", "type": "https", "server": "8.8.8.8", "detour": "🚀 默认代理"}
     ],
     "rules": [
