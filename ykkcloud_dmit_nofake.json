@@ -51,6 +51,7 @@
       {"clash_mode": "direct", "outbound": "🎯 全球直连"},
       {"clash_mode": "global", "outbound": "GLOBAL"},
       {"rule_set": "geosite-microsoftcn", "outbound": "🎯 全球直连"},
+      {"rule_set": "geosite-tencent", "outbound": "🎯 全球直连"},
       {"rule_set": "geosite-speedtest", "outbound": "🎯 全球直连"},
       {"rule_set": "geosite-applecn", "outbound": "🎯 全球直连"},
       {"rule_set": "geosite-ai", "outbound": "🧠 AI"},
@@ -76,6 +77,7 @@
     ],
     "rule_set": [
       {"tag": "geosite-microsoftcn", "type": "remote", "format": "binary", "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/microsoft%40cn.srs", "download_detour": "🎯 全球直连"},
+      {"tag": "geosite-tencent", "type": "remote", "format": "binary", "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/tencent.srs", "download_detour": "🎯 全球直连"},
       {"tag": "geosite-speedtest", "type": "remote", "format": "binary", "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/speedtest.srs", "download_detour": "🎯 全球直连"},
       {"tag": "geosite-applecn", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/apple@cn.srs", "download_detour": "🎯 全球直连"},
       {"tag": "geosite-ai", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ai-!cn.srs", "download_detour": "🎯 全球直连"},
