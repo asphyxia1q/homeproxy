@@ -55,6 +55,8 @@
       {"rule_set": "geosite-tencent", "outbound": "🎯 全球直连"},
       {"rule_set": "geosite-speedtest", "outbound": "🎯 全球直连"},
       {"rule_set": "geosite-applecn", "outbound": "🎯 全球直连"},
+      {"rule_set": "geosite-ziyongguizeji", "outbound": "🚀 默认代理"},
+      {"rule_set": "geosite-ziyongguize_dr", "outbound": "🎯 全球直连"},
       {"rule_set": "geosite-ai", "outbound": "🧠 AI"},
       {"rule_set": "geosite-pikpak", "outbound": "🤦‍♂️ PikPak"},
       {"rule_set": "geosite-youtube", "outbound": "📹 YouTube"},
@@ -78,6 +80,8 @@
       {"rule_set": "geoip-cn", "outbound": "🎯 全球直连"}
     ],
     "rule_set": [
+      {"tag": "geosite-ziyongguizeji", "type": "remote", "format": "source", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/asphyxia1q/homeproxy/refs/heads/main/ziyongguizeji.json", "download_detour": "🎯 全球直连"},
+      {"tag": "geosite-geosite-ziyongguize_dr", "type": "remote", "format": "source", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/asphyxia1q/homeproxy/refs/heads/main/ziyongguize_dr.json", "download_detour": "🎯 全球直连"},
       {"tag": "geosite-microsoftcn", "type": "remote", "format": "binary", "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/microsoft%40cn.srs", "download_detour": "🎯 全球直连"},
       {"tag": "geosite-tencent", "type": "remote", "format": "binary", "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/tencent.srs", "download_detour": "🎯 全球直连"},
       {"tag": "geosite-pikpak", "type": "remote", "format": "binary", "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/pikpak.srs", "download_detour": "🎯 全球直连"},
