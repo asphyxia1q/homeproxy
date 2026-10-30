@@ -118,6 +118,7 @@ routing {
     dport(853) -> block
     l4proto(udp) && dport(443) -> block
     domain(geosite: speedtest) -> direct
+    domain(geosite: test-ipv6) -> direct
     domain(geosite: jable) -> Proxy
     domain(suffix: googleapis.cn, suffix: xn--ngstr-lra8j.com) -> Google
     domain(suffix: withgoogle.com, suffix: notebooklm.google, geosite: category-ai-!cn) -> AI
