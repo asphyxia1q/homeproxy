@@ -117,6 +117,7 @@ routing {
     dip(geoip: private, geoip: cn) && !dport(53, 853) -> direct(must)
     dport(853) -> block
     l4proto(udp) && dport(443) -> block
+    domain(geosite: speedtest) -> direct
     domain(suffix: googleapis.cn, suffix: xn--ngstr-lra8j.com) -> Google
     domain(suffix: withgoogle.com, suffix: notebooklm.google, geosite: category-ai-!cn) -> AI
     domain(geosite: youtube) -> YouTube
