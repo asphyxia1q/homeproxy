@@ -1,6 +1,6 @@
 # 订阅支持V2ray/URL、mihomo等格式，多机场按照示例复制模块改机场名字即可。
 subscription {
-    sub: '订阅链接' {
+    sub: 'https://config.moe/config/3f9dd92bbbb2701039e0fbf7878a60ae' {
         ua: 'clash.meta/1.19.30'
         interval: 0s
         cache: false
