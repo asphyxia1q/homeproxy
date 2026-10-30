@@ -1,6 +1,6 @@
 # 订阅支持V2ray/URL、mihomo等格式，多机场按照示例复制模块改机场名字即可。
 subscription {
-    sub: 'https://1' {
+    sub: '订阅链接' {
         ua: 'clash.meta/1.19.30'
         interval: 0s
         cache: false
@@ -124,7 +124,6 @@ routing {
     domain(geosite: github) -> Github
     domain(geosite: onedrive) -> OneDrive
     domain(geosite: microsoft@cn) -> direct
-    domain(geosite: speedtest) -> direct
     domain(geosite: microsoft) -> Microsoft
     domain(geosite: apple@cn) -> direct
     domain(geosite: apple) -> Apple
@@ -178,7 +177,4 @@ experimental {
         enabled: true
         store_dns: true
     }
-}
-node {
-    DMIT-US-HK-JP-SG: 'vless://053d0d9c-c7f1-46be-8e14-07249ddc6510@us.dianbaowiki.com:54712?encryption=none&fp=chrome&pbk=I7jBaXi855t2VRBRD-EpKCoO4ajja_Bc0AaqZ3YWAUM&security=reality&sid=c11bf81d679b84e2&sni=aws.amazon.com&spx=%2F237feff91b8e4ef&support-x25519mlkem768=true&type=tcp#DMIT-%E7%BE%8E%E5%9B%BD9-400G-%E5%B9%B4%E4%BB%98%E2%85%A1-IF%3AHEIKA-7-29-2u3hcmb2'
 }
