@@ -120,6 +120,7 @@ routing {
     domain(geosite: speedtest) -> direct
     domain(geosite: test-ipv6) -> direct
     domain(geosite: jable) -> Proxy
+    domain(geosite: pikpak) -> Proxy
     domain(suffix: googleapis.cn, suffix: xn--ngstr-lra8j.com) -> Google
     domain(suffix: withgoogle.com, suffix: notebooklm.google, geosite: category-ai-!cn) -> AI
     domain(geosite: youtube) -> YouTube
