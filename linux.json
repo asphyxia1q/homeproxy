@@ -39,7 +39,7 @@
     {"tag": "🤦‍♂️ PikPak", "type": "selector", "outbounds": ["🚀 默认代理", "🙄香港普通", "💤日本节点", "💀台湾节点", "😄新加坡节点", "🐸 手动选择", "🎉 手动选择2", "🎯 全球直连"]},
     {"tag": "🪟 Microsoft", "type": "selector", "outbounds": ["🚀 默认代理", "🙄香港普通", "💤日本节点", "💀台湾节点", "😄新加坡节点", "🐸 手动选择", "🎉 手动选择2", "🎯 全球直连"]},
     {"tag": "🐬 OneDrive", "type": "selector", "outbounds": ["🎯 全球直连", "🙄香港普通", "💤日本节点", "💀台湾节点", "😄新加坡节点", "🐸 手动选择", "🎉 手动选择2"]},
-    {"tag": "🍏 Apple", "type": "selector", "outbounds": ["🎯 全球直连", "🙄香港普通", "💤日本节点", "💀台湾节点", "😄新加坡节点", "🐸 手动选择", "🎉 手动选择2"]},
+    {"tag": "🍏 Apple", "type": "selector", "outbounds": ["🚀 默认代理", "🙄香港普通", "💤日本节点", "💀台湾节点", "😄新加坡节点", "🐸 手动选择", "🎉 手动选择2"]},
     {"tag": "🐠 漏网之鱼", "type": "selector", "outbounds": ["🚀 默认代理", "🎯 全球直连"]},
     {"tag": "🙄香港普通", "type": "urltest", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["🇭🇰|HK|hk|香港|港|HongKong"]}, {"action": "exclude", "keywords": ["免费"]}]},
     {"tag": "💤日本节点", "type": "urltest", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["🇯🇵|JP|jp|日本|日|Japan"]}, {"action": "exclude", "keywords": ["免费"]}]},
