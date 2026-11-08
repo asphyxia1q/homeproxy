@@ -68,6 +68,8 @@
       {"clash_mode": "Global", "outbound": "GLOBAL"},
       {"rule_set": "geosite-private", "outbound": "🎯 全球直连"},
       {"rule_set": "geosite-speedtest", "outbound": "🎯 全球直连"},
+      {"rule_set": "geosite-ziyongguizeji", "outbound": "🚀 默认代理"},
+      {"rule_set": "geosite-ziyongguize_dr", "outbound": "🎯 全球直连"},
       {"rule_set": "geosite-category-ai-!cn", "outbound": "🧠 AI"},
       {"rule_set": "geosite-youtube", "outbound": "📹 YouTube"},
       {"rule_set": "geosite-pikpak", "outbound": "🤦‍♂️ PikPak"},
@@ -97,6 +99,9 @@
       {"tag": ["geosite-category-ai-!cn", "geosite-youtube", "geosite-google", "geosite-github", "geosite-onedrive", "geosite-pikpak", "geosite-microsoft", "geosite-microsoft@cn","geosite-apple", "geosite-apple@cn", "geosite-telegram", "geosite-tiktok", "geosite-netflix", "geosite-paypal", "geosite-binance", "geosite-okx", "geosite-category-cryptocurrency", "geosite-steam@cn", "geosite-steam", "geosite-geolocation-!cn", "geosite-cn", "geosite-private"], "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/{tag}.srs"},
       {"tag": "geoip-telegram", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/telegram.srs"},
       {"tag": "geoip-cn", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs"}
+      {"tag": "geosite-ziyongguizeji", "type": "remote", "format": "source", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/asphyxia1q/homeproxy/refs/heads/main/ziyongguizeji.json"}
+      {"tag": "geosite-ziyongguize_dr", "type": "remote", "format": "source", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/asphyxia1q/homeproxy/refs/heads/main/ziyongguize_dr.json"}
+      
     ],
     "final": "🐠 漏网之鱼",
     "default_http_client": "直连下载",
